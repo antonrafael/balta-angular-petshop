@@ -1,0 +1,28 @@
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left uk-margin-large-left">
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Produtos</a></li>
+            <li class="uk-active"><a [routerLink]="['/account/pets']" routerLinkActive="uk-text-bold">Meus Pets</a></li>
+            <li class="uk-active"><a href="#">Consultas</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right uk-margin-large-right"> 
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="#">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: cart"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>                  
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
+                </a>
+              </li>
+        </ul>
+    </div>
+</nav>
